@@ -32,7 +32,7 @@ img {
 /* Header Section CSS */
 header {
     background-color: #fff4e7;
-    padding: 50px 240px;
+    padding: 3rem 200px;
 }
 
 /* Navbar */
@@ -81,4 +81,60 @@ nav a {
 }
 .banner img{
     margin-top: 3.25rem;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive for Mobile Devices */
+@media screen and (max-width: 576px){
+    header{
+        padding: 3rem;
+        
+    }
+    
+    nav{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+   nav li{
+    margin: 1.5rem;
+   }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner{
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Responsive for Medium Devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    header{
+        padding: 3rem 7rem;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav > ul{
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
 }
