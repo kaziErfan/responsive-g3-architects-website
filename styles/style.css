@@ -2,42 +2,83 @@
 
 
 /* Shared CSS */
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
+}
+
+.section-description {
+    font-weight: 400;
+    color: #727272;
+    margin: 2rem 0;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1.25rem 1.5rem;
+    border: 0;
 }
 
 
 /* Header Section CSS */
-header{
+header {
     background-color: #fff4e7;
     padding: 50px 240px;
 }
+
 /* Navbar */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
-nav h3{
+
+nav h3 {
     font-size: 2.8rem;
     color: #131313;
     font-weight: 700;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 3rem;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 500;
     color: #424242;
+}
+.banner{
+    margin-top: 6.25rem;
+}
+
+.banner-content {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.banner img{
+    margin-top: 3.25rem;
 }
