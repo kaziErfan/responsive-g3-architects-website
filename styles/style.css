@@ -104,7 +104,7 @@ nav a {
     padding: 0 2rem;
 }
 .team-content{
-    width: 80%;
+    width: 60%;
     margin: auto 0;
 }
 .team-title{
@@ -134,7 +134,10 @@ nav a {
 
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576px){
-   header{
+   .section-width{
+    width: 100%;
+   }
+    header{
     padding: 2rem 0;
    } 
    nav{
@@ -151,7 +154,7 @@ nav a {
    .banner{
     margin-top: 3rem;
    }
-   .banner-content{
+   .banner-content, .team-content{
     width: 80%;
    }
    .banner-title{
@@ -160,6 +163,12 @@ nav a {
    .banner-image{
     width: 80%;
     margin: 2.5rem auto;
+   }
+   .team-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+
    }
 }
 
@@ -179,5 +188,16 @@ nav a {
    }
    .banner{
     margin-top: 4rem;
+   }
+   .team-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+   }
+   .banner-content{
+    width: 100%;
+   }
+   .section-width{
+    width: 100%;
    }
 }
